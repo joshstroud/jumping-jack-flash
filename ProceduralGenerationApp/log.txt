@@ -1,0 +1,2 @@
+August 23, 2008 - Added custom SliderX class, including textArray which stores textFields with the numbers. Finished prototype pause/unpause 
+capabilities, added numbers above slider, stored in sliderX.textArray. Furthered encapsulation.

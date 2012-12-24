@@ -1,0 +1,1 @@
+TortoiseProc.exe /command:commit /path:"C:\Documents and Settings\marketing\My Documents\Flex Builder 3\ProceduralGenerationApp" /logmsg:"Quick Commit: No log message. See another commit for a log message." /closeonend:3

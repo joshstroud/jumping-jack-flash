@@ -1,0 +1,51 @@
+private function checkKeyPoll(event:Event):void {
+			//trace('bounds: ' + stage.stageWidth + ", "+ stage.stageHeight);
+			//!TODO! if reaches top speed, becomes uncontrollable -> no way to get back below top speed again ->fix it
+			var i:uint;
+		    var target:Object;
+		    if (key.isDown( Keyboard.UP)) {
+		 /*       for each (var tile:Tile in tileArray) {
+		     		tile.updatePosition(0, -tileSpeed);
+		        } 
+		 */
+		        //trace("accel: " + objectArray[0].accel);
+		        for(i = 0; i < objectArray.length; i++)  {
+			    		target = objectArray[i];
+				       // if(target.vy>0) target.vy=0;
+				        target.vy -= target.accel * target.accelFactor *target.scaleX * target.reverseV;
+		        	//	trace('target[' + i +'].vy = ' + target.vy);
+		        }
+		      // trace(this.stage.height);
+		    } if (key.isDown( Keyboard.DOWN)) {
+		 /*      	for each (tile in tileArray) {
+		     		tile.updatePosition(0, tileSpeed);
+		        }
+		  */
+		        for(i = 0; i < objectArray.length; i++)  {
+				    target = objectArray[i];
+			       // if(target.vy<0) target.vy=0;
+			        target.vy += target.accel *target.accelFactor*target.scaleX * target.reverseV;
+		        	// trace(target.name + ".vy = " + target.vy);
+		        }
+		      //  trace('foo');
+		    } if (key.isDown( Keyboard.LEFT)) {
+		/*       for each (tile in tileArray) {
+		     		tile.updatePosition(-tileSpeed, 0);
+		       }
+		  */
+		        for(i = 0; i < objectArray.length; i++)  {
+				    target = objectArray[i];
+			      //  if(target.vx>0) target.vy=0;
+		        	 target.vx -= target.accel * target.accelFactor*target.scaleX * target.reverseV;
+		        }
+		    } if (key.isDown( Keyboard.RIGHT)) {
+		  /*  	for each (tile in tileArray) {
+		     		tile.updatePosition(tileSpeed, 0);
+		       }
+		  */  
+		    	for(i = 0; i < objectArray.length; i++)  {
+				    target = objectArray[i];
+					//if(target.vx<0) target.vy=0;
+			       target.vx += target.accel * target.accelFactor*target.scaleX * target.reverseV;
+		        }
+		    }

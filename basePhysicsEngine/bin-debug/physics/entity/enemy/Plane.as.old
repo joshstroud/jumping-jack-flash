@@ -1,0 +1,26 @@
+package object.entity.enemy {
+	import object.entity.BaseEntity;
+
+	public class Plane extends BaseEntity {
+		private var _hexColor:uint;
+		
+		public function Plane()
+		{
+			super();
+		}
+	
+		public function get hexColor():uint {
+			return _hexColor;
+		}
+		
+		override protected function updateVelocity(target:Object):void {
+			super.updateVelocity(target);
+			this.rotation = Math.atan2(_vy, _vx) / Math.PI * 180 + 90;
+		}
+		
+		public function set hexColor(value:uint):void {
+			_hexColor = value;
+		}
+		
+	}
+}

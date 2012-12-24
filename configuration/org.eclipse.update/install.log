@@ -1,0 +1,17 @@
+
+!CONFIGURATION 1237951171246 Tue Mar 24 20:19:31 PDT 2009
+!ACTIVITY 1237951173700 Mar 24, 2009 20:19:33.700 file:/C:/Program Files (x86)/Adobe/Flex Builder 3/ site-install success
+
+!CONFIGURATION 1237951189077 Tue Mar 24 20:19:49 PDT 2009
+!ACTIVITY 1237951175003 Mar 24, 2009 20:19:35.03 com.adobe.flexbuilder.feature.standalone_3.0.194161 feature-install success
+!ACTIVITY 1237951189029 Mar 24, 2009 20:19:49.29 com.adobe.flexbuilder.feature.core_3.0.194161 feature-enable success
+!ACTIVITY 1237951189029 Mar 24, 2009 20:19:49.29 com.adobe.flexbuilder.feature.standalone_3.0.194161 feature-enable success
+
+!CONFIGURATION 1237951199247 Tue Mar 24 20:19:59 PDT 2009
+!ACTIVITY 1237951197265 Mar 24, 2009 20:19:57.265 com.interaktonline.jseclipse_1.5.5 feature-install success
+!ACTIVITY 1237951199170 Mar 24, 2009 20:19:59.170 com.interaktonline.jseclipse_1.5.5 feature-enable success
+
+!CONFIGURATION 1260838067625 Mon Dec 14 16:47:47 PST 2009
+!ACTIVITY 1260837983031 Dec 14, 2009 16:46:23.31 com.adobe.flexbuilder.feature.standalone_3.0.194161 feature-install success
+!ACTIVITY 1260838067062 Dec 14, 2009 16:47:47.62 com.adobe.flexbuilder.feature.core_3.0.194161 feature-enable success
+!ACTIVITY 1260838067062 Dec 14, 2009 16:47:47.62 com.adobe.flexbuilder.feature.standalone_3.0.194161 feature-enable success

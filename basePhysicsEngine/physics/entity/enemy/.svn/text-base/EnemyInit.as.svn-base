@@ -1,0 +1,21 @@
+package object.entity.enemy {
+	import object.entity.BaseEntity;
+
+	public class EnemyInit extends BaseEntity {
+		private var _hexColor:uint;
+		
+		public function EnemyInit()
+		{
+			super();
+		}
+	
+		public function get hexColor():uint {
+			return _hexColor;
+		}
+		
+		public function set hexColor(value:uint):void {
+			_hexColor = value;
+		}
+		
+	}
+}

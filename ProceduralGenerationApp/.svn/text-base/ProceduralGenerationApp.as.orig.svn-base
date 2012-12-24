@@ -1,0 +1,18 @@
+package {
+	import entity.*;
+	
+	import flash.display.MovieClip;
+	import flash.events.KeyboardEvent;
+	import flash.text.*;
+
+	public class ProceduralGenerationApp extends MovieClip
+	{
+
+		
+		public function ProceduralGenerationApp()
+		{
+			trace('init app');
+		}
+		
+	}
+}

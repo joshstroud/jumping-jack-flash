@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>CPUBenchmark</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.adobe.flexbuilder.project.flexbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.adobe.flexbuilder.project.actionscriptnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[source path] objects</name>
+			<type>2</type>
+			<locationURI>DOCUMENTS/SampleShooter/objects</locationURI>
+		</link>
+		<link>
+			<name>[source path] basePhysicsEngine</name>
+			<type>2</type>
+			<locationURI>DOCUMENTS/basePhysicsEngine</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
